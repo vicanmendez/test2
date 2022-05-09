@@ -7,7 +7,7 @@
         <form action="#" method="post">
             <?php
             
-        
+            //Definimos campos ocultos de formulario, con los datos del array        
             if(isset($_POST['nombres'])) {
                 $nombres = $_POST['nombres'];
                     for($i=0; $i<count($_POST['nombres']); $i++){
@@ -25,7 +25,7 @@
         
        
         <?php
-           
+           //Mostramos el array
            
               if (isset($_POST['nombre'])) {
                 $nombres[] = $_POST['nombre'];
